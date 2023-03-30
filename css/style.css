@@ -1,0 +1,52 @@
+/* 导航条相关 */
+.navbar .navbar-brand{
+    margin-left: 5%;
+}
+
+/* 搜索框圆角矩形 */
+#navbarSupportedContent .form-inline>.form-control{
+    border-radius:30px 30px 30px 30px
+}
+#navbarSupportedContent .form-inline>button{
+    border-radius:20px 20px 20px 20px
+}
+
+/* 轮播图相关 */
+.myCrousel{
+    max-height: 400px;
+}
+#carouselExampleCaptions .carousel-inner>.carousel-item>img{
+    display: block;
+    width: 1200px;
+    height: 400px;
+}
+
+
+/* 插图 */
+.bg1{
+    background-image: url('../img/1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+
+/* 卡片 */
+.card-one .card{
+    float: left;
+    margin-left: 3%;
+    margin-top: 30px;
+}
+
+/* page-footer */
+.page-footer{
+    background-color: #2F82F7;
+    width: 100%;
+
+}
+.page-footer h3{
+    color: aliceblue;
+    text-align: center;
+}
