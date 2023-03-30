@@ -30,14 +30,14 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-
 }
 
 /* 卡片 */
 .card-one .card{
     float: left;
     margin-left: 3%;
-    margin-top: 30px;
+    margin-top: 40px;
+    width: 20%;
 }
 
 /* page-footer */
